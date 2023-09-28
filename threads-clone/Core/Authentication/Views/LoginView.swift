@@ -43,13 +43,8 @@ struct LoginView: View {
                     
                 } label: {
                     Text("Login")
-                        .font(.subheadline)
-                        .fontWeight(.semibold)
-                        .foregroundColor(.white)
-                        .frame(width: 352, height: 44)
-                        .background(.black)
-                        .cornerRadius(8)
                 }
+                .modifier(ThreadsButtomFieldModifier())
                 
                 Spacer()
                 

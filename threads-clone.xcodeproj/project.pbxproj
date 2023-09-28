@@ -15,6 +15,7 @@
 		B7033FD62AC4D6D100B760F1 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = B7033FD52AC4D6D100B760F1 /* .gitignore */; };
 		B73FB22D2AC4FEEF007C5A8B /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB22C2AC4FEEF007C5A8B /* RegistrationView.swift */; };
 		B73FB2302AC5025F007C5A8B /* ThreadsTextFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB22F2AC5025F007C5A8B /* ThreadsTextFieldModifier.swift */; };
+		B73FB2332AC50679007C5A8B /* ThreadsButtomFieldModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB2322AC50679007C5A8B /* ThreadsButtomFieldModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		B7033FD52AC4D6D100B760F1 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		B73FB22C2AC4FEEF007C5A8B /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 		B73FB22F2AC5025F007C5A8B /* ThreadsTextFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsTextFieldModifier.swift; sourceTree = "<group>"; };
+		B73FB2322AC50679007C5A8B /* ThreadsButtomFieldModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadsButtomFieldModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +62,9 @@
 		B7033FB92AC4D07800B760F1 /* threads-clone */ = {
 			isa = PBXGroup;
 			children = (
-				B7033FC82AC4D13600B760F1 /* Utils */,
 				B7033FCF2AC4D15400B760F1 /* App */,
 				B7033FCE2AC4D15200B760F1 /* Core */,
+				B7033FC82AC4D13600B760F1 /* Utils */,
 				B7033FCD2AC4D15100B760F1 /* Extensions */,
 				B7033FCC2AC4D14F00B760F1 /* Model */,
 				B7033FCB2AC4D14D00B760F1 /* Services */,
@@ -112,9 +114,9 @@
 		B7033FCE2AC4D15200B760F1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
-				B73FB2312AC50552007C5A8B /* TabBar */,
 				B7033FD12AC4D1BE00B760F1 /* Authentication */,
 				B7033FD02AC4D1BD00B760F1 /* Root */,
+				B73FB2312AC50552007C5A8B /* TabBar */,
 			);
 			path = Core;
 			sourceTree = "<group>";
@@ -156,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				B73FB22F2AC5025F007C5A8B /* ThreadsTextFieldModifier.swift */,
+				B73FB2322AC50679007C5A8B /* ThreadsButtomFieldModifier.swift */,
 			);
 			path = ViewModifiers;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 			files = (
 				B73FB22D2AC4FEEF007C5A8B /* RegistrationView.swift in Sources */,
 				B7033FD42AC4D23100B760F1 /* LoginView.swift in Sources */,
+				B73FB2332AC50679007C5A8B /* ThreadsButtomFieldModifier.swift in Sources */,
 				B73FB2302AC5025F007C5A8B /* ThreadsTextFieldModifier.swift in Sources */,
 				B7033FBD2AC4D07800B760F1 /* ContentView.swift in Sources */,
 				B7033FBB2AC4D07800B760F1 /* threads_cloneApp.swift in Sources */,

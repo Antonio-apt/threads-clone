@@ -36,13 +36,8 @@ struct RegistrationView: View {
                 
             } label: {
                 Text("Sign Up ")
-                    .font(.subheadline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(.white)
-                    .frame(width: 352, height: 44)
-                    .background(.black)
-                    .cornerRadius(8)
             }
+            .modifier(ThreadsButtomFieldModifier())
             .padding(.vertical)
             
             Spacer()
