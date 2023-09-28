@@ -9,7 +9,7 @@ import SwiftUI
 
 struct LoginView: View {
     @State private var email = ""
-    @State private var passwrod = ""
+    @State private var password = ""
     var body: some View {
         NavigationStack {
             VStack {
@@ -21,26 +21,19 @@ struct LoginView: View {
                     .padding()
                 VStack {
                     TextField("Enter your email", text: $email)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
-                    SecureField("Enter your password", text: $passwrod)
-                        .font(.subheadline)
-                        .padding(12)
-                        .background(Color(.systemGray6))
-                        .cornerRadius(10)
-                        .padding(.horizontal, 24)
+                        .autocapitalization(/*@START_MENU_TOKEN@*/.none/*@END_MENU_TOKEN@*/)
+                        .modifier(ThreadsTextFieldModifier())
+                    SecureField("Enter your password", text: $password)
+                        .modifier(ThreadsTextFieldModifier())
                 }
                 
                 NavigationLink {
-                    Text("Forgot password")
+                    
                 } label: {
                     Text("forgot password?")
                         .font(.footnote)
                         .fontWeight(.semibold)
-                        .padding(.top)
+                        .padding(.vertical)
                         .padding(.trailing, 28)
                         .foregroundColor(.black)
                         .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/, alignment: .trailing)
@@ -63,7 +56,8 @@ struct LoginView: View {
                 Divider()
                 
                 NavigationLink {
-                    Text("Registration View")
+                    RegistrationView()
+                        .navigationBarBackButtonHidden(true) 
                 } label : {
                     HStack(spacing: 3) {
                         Text("Don't have an account?")
