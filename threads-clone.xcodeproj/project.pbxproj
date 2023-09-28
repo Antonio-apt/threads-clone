@@ -22,6 +22,7 @@
 		B73FB2422AC50E8D007C5A8B /* CreateThreadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB2412AC50E8D007C5A8B /* CreateThreadView.swift */; };
 		B73FB2462AC50EC9007C5A8B /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB2452AC50EC9007C5A8B /* ActivityView.swift */; };
 		B73FB24A2AC50EEC007C5A8B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB2492AC50EEC007C5A8B /* ProfileView.swift */; };
+		B73FB24C2AC5130E007C5A8B /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB24B2AC5130E007C5A8B /* ThreadCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		B73FB2412AC50E8D007C5A8B /* CreateThreadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateThreadView.swift; sourceTree = "<group>"; };
 		B73FB2452AC50EC9007C5A8B /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		B73FB2492AC50EEC007C5A8B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		B73FB24B2AC5130E007C5A8B /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				B73FB2382AC50D99007C5A8B /* FeedView.swift */,
+				B73FB24B2AC5130E007C5A8B /* ThreadCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				B73FB22D2AC4FEEF007C5A8B /* RegistrationView.swift in Sources */,
 				B73FB2352AC50788007C5A8B /* ThreadsTabView.swift in Sources */,
 				B7033FD42AC4D23100B760F1 /* LoginView.swift in Sources */,
+				B73FB24C2AC5130E007C5A8B /* ThreadCell.swift in Sources */,
 				B73FB2332AC50679007C5A8B /* ThreadsButtomFieldModifier.swift in Sources */,
 				B73FB2302AC5025F007C5A8B /* ThreadsTextFieldModifier.swift in Sources */,
 				B7033FBD2AC4D07800B760F1 /* ContentView.swift in Sources */,
