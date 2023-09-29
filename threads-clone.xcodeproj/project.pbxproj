@@ -23,6 +23,7 @@
 		B73FB2462AC50EC9007C5A8B /* ActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB2452AC50EC9007C5A8B /* ActivityView.swift */; };
 		B73FB24A2AC50EEC007C5A8B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB2492AC50EEC007C5A8B /* ProfileView.swift */; };
 		B73FB24C2AC5130E007C5A8B /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB24B2AC5130E007C5A8B /* ThreadCell.swift */; };
+		B7B20A2A2AC76D3300DCBDD9 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A292AC76D3300DCBDD9 /* CircularProfileImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		B73FB2452AC50EC9007C5A8B /* ActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityView.swift; sourceTree = "<group>"; };
 		B73FB2492AC50EEC007C5A8B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		B73FB24B2AC5130E007C5A8B /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
+		B7B20A292AC76D3300DCBDD9 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 		B7033FCE2AC4D15200B760F1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				B7B20A282AC76CF700DCBDD9 /* Components */,
 				B73FB2432AC50EAA007C5A8B /* Activity */,
 				B73FB23A2AC50DDC007C5A8B /* Explore */,
 				B73FB2472AC50ED9007C5A8B /* Profile */,
@@ -271,6 +274,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		B7B20A282AC76CF700DCBDD9 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				B7B20A292AC76D3300DCBDD9 /* CircularProfileImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -349,6 +360,7 @@
 				B73FB24A2AC50EEC007C5A8B /* ProfileView.swift in Sources */,
 				B73FB22D2AC4FEEF007C5A8B /* RegistrationView.swift in Sources */,
 				B73FB2352AC50788007C5A8B /* ThreadsTabView.swift in Sources */,
+				B7B20A2A2AC76D3300DCBDD9 /* CircularProfileImageView.swift in Sources */,
 				B7033FD42AC4D23100B760F1 /* LoginView.swift in Sources */,
 				B73FB24C2AC5130E007C5A8B /* ThreadCell.swift in Sources */,
 				B73FB2332AC50679007C5A8B /* ThreadsButtomFieldModifier.swift in Sources */,
