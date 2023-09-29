@@ -24,6 +24,7 @@
 		B73FB24A2AC50EEC007C5A8B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB2492AC50EEC007C5A8B /* ProfileView.swift */; };
 		B73FB24C2AC5130E007C5A8B /* ThreadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73FB24B2AC5130E007C5A8B /* ThreadCell.swift */; };
 		B7B20A2A2AC76D3300DCBDD9 /* CircularProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A292AC76D3300DCBDD9 /* CircularProfileImageView.swift */; };
+		B7B20A2C2AC781D000DCBDD9 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B20A2B2AC781D000DCBDD9 /* UserCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +46,7 @@
 		B73FB2492AC50EEC007C5A8B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		B73FB24B2AC5130E007C5A8B /* ThreadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadCell.swift; sourceTree = "<group>"; };
 		B7B20A292AC76D3300DCBDD9 /* CircularProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProfileImageView.swift; sourceTree = "<group>"; };
+		B7B20A2B2AC781D000DCBDD9 /* UserCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -278,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				B7B20A292AC76D3300DCBDD9 /* CircularProfileImageView.swift */,
+				B7B20A2B2AC781D000DCBDD9 /* UserCell.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				B73FB22D2AC4FEEF007C5A8B /* RegistrationView.swift in Sources */,
 				B73FB2352AC50788007C5A8B /* ThreadsTabView.swift in Sources */,
 				B7B20A2A2AC76D3300DCBDD9 /* CircularProfileImageView.swift in Sources */,
+				B7B20A2C2AC781D000DCBDD9 /* UserCell.swift in Sources */,
 				B7033FD42AC4D23100B760F1 /* LoginView.swift in Sources */,
 				B73FB24C2AC5130E007C5A8B /* ThreadCell.swift in Sources */,
 				B73FB2332AC50679007C5A8B /* ThreadsButtomFieldModifier.swift in Sources */,
