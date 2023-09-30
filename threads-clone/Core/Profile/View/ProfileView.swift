@@ -44,7 +44,16 @@ struct ProfileView: View {
                         .cornerRadius(8)
                 }
                 
-                
+                VStack {
+                    HStack {
+                        ForEach(ProfileThreadFilter.allCases) {
+                            filter in VStack {
+                                Text(filter.title)
+                                    .font(.subheadline)
+                            }
+                        }
+                    }
+                }
             }
         }
         .padding(.horizontal)
